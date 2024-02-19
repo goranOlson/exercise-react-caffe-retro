@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100vh 100vh;
+    row-gap: 1rem;
+
+    /* border-bottom: 12px solid #900; */
+    background-color: #900;
+}
