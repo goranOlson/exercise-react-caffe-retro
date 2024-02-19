@@ -1,0 +1,29 @@
+section p,
+section div.content > ul {
+    width: 65%;
+    margin-inline: auto;
+    margin-block: 28px;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    background-color: #111;
+    opacity: 0.8;
+    font-family: 'Poiret One', sans-serif;
+}
+
+section p.to-left,
+section p.to-right {
+    background-color: #800;
+    text-align: center;
+}
+
+section p.to-left { margin-left: 10%; }
+section p.to-right { margin-right: 10%; }
+
+p.list .item { width: 100%; }
+
+p.list .price {
+    width: 100px;
+    background-color: orange;
+    text-align: right;
+}
