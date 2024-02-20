@@ -4,23 +4,31 @@ h1 {
     margin-right: auto;
     margin-block: 0;
     color: #800;
-    font-size: 70px;
+    font-size: 2.5rem;
     font-family: 'Spirax', sans-serif;
 }
 
 section .content {
-    width: 70%;
-    margin-inline: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    
+    width: 100%;
+    padding-inline: 5%;
+    /* margin-inline: auto; */
+
+    /* background: #afa5; */
 }
 
 section p,
 section div.content > ul {
-    width: 65%;
+    /* width: 80%; */
     margin-inline: auto;
-    margin-block: 28px;
-    padding: 8px;
+    /* margin-block: 28px; */
+    padding: 4px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #111;
     opacity: 0.8;
     font-family: 'Poiret One', sans-serif;
@@ -28,12 +36,19 @@ section div.content > ul {
 
 section p.to-left,
 section p.to-right {
+    width: 100%;
     background-color: #800;
     text-align: center;
 }
 
-section p.to-left { margin-left: 10%; }
-section p.to-right { margin-right: 10%; }
+section p.to-left {
+    /* margin-left: 10%; */
+}
+
+section p.to-right {
+    margin-right: 10%;
+    display: none;
+}
 
 p.list .item { width: 100%; }
 
@@ -45,14 +60,53 @@ p.list .price {
 
 div.content > ul {
     list-style-type: none;
+    width: 100%;
     padding-block: 4px;
 }
 
-div.content > ul li { padding-inline: 24px; }
+div.content > ul li {
+    padding-inline: 0.5rem;
+    /* background-color: #f00; */
+ }
 
 div.content li .price {
     width: 100px;
     min-width: 100px;
     float: right;
     text-align: right;
+     /* background-color: #222; */
+}
+
+@media screen and (min-width: 500px) {
+    nav a {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    section .content {
+        padding-inline: 10%;
+    }
+
+    section p.to-left, 
+    section p.to-right {
+        width: 530px;
+        padding: 16px 40px;
+        
+        font-size: 18px;
+    }
+    section p.to-left {
+        margin-left: -40px;
+    }
+    section p.to-right {
+        display: block;
+        margin-right: -40px;
+    }
+
+    div.content > ul li {
+        font-size: 18px;
+        padding: 2px 36px;
+    }    
 }

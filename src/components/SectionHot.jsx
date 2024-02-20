@@ -14,22 +14,22 @@ function SectionHot () {
             {
                 id: 1,
                 product: "Mocha Latte",
-                price: "7.50",
+                price: "€ 7.50",
             },
             {
                 id: 2,
                 product: "Caffe Formaggio",
-                price: "5.00",
+                price: "€ 5.00",
             },
             {
                 id: 3,
                 product: "Espresso",
-                price: "3.50",
+                price: "€ 3.50",
             },
             {
                 id: 5,
                 product: "Latte",
-                price: "5.50",
+                price: "€ 5.50",
             }
         ]
     }
