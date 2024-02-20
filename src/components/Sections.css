@@ -6,7 +6,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 #hot {
     background:url("../assets/hot.jpg");
@@ -16,6 +16,12 @@ section {
 
 #juicy {
     background:url("../assets/juicy.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#cosy {
+    background:url("../assets/cosy.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
