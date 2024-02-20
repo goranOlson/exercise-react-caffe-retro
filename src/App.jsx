@@ -1,5 +1,5 @@
-// import SectionHot from './components/SectionHot.jsx'
 
+import Header from "./components/Header.jsx";
 import SectionHot from "./components/SectionHot.jsx";
 import SectionJuicy from "./components/SectionJuicy.jsx";
 import SectionCosy from "./components/SectionCosy.jsx";
@@ -11,6 +11,7 @@ export function App() {
     <SectionHot/>
     <SectionJuicy/>
     <SectionCosy/>
+    <Header/>
     </>
   );
 }
