@@ -12,7 +12,7 @@ export function Content({data}) {
                     { data.prices.map(price => (
                             <li key={price.id}>
                                 <span>{price.product}</span>
-                                <span className="price">€ {price.price}</span>
+                                <span className="price">{price.price}</span>
                             </li>
                     )) }
                 </ul>

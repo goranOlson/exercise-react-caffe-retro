@@ -13,17 +13,17 @@ function SectionJuicy () {
             {
                 id: 1,
                 product: "Branched Apricots",
-                price: "4.20",
+                price: "€ 4.20",
             },
             {
                 id: 2,
                 product: "Deep Rasberries",
-                price: "3.50",
+                price: "€ 3.50",
             },
             {
                 id: 3,
                 product: "Smooth Oranges",
-                price: "6.50",
+                price: "€ 6.50",
             }
         ]
     }
