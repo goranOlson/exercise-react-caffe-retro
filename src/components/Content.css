@@ -1,3 +1,18 @@
+h1 {
+    width: max-content;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-block: 0;
+    color: #800;
+    font-size: 70px;
+    font-family: 'Spirax', sans-serif;
+}
+
+section .content {
+    width: 70%;
+    margin-inline: auto;
+}
+
 section p,
 section div.content > ul {
     width: 65%;
@@ -25,5 +40,19 @@ p.list .item { width: 100%; }
 p.list .price {
     width: 100px;
     background-color: orange;
+    text-align: right;
+}
+
+div.content > ul {
+    list-style-type: none;
+    padding-block: 4px;
+}
+
+div.content > ul li { padding-inline: 24px; }
+
+div.content li .price {
+    width: 100px;
+    min-width: 100px;
+    float: right;
     text-align: right;
 }

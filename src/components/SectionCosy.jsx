@@ -1,38 +1,38 @@
 import { Content } from "./Content.jsx";
 import "./Sections.css";
 
-function SectionJuicy () {
+function SectionCosy () {
 
     const sectionData = {
-        header: "Juicy",
+        header: "Cosy",
         slogan: [
-            "Ripe fruit - freshly squeezed.",
-            "It's as simple as that. Chunky or smooth - it's your choice."
+            "Hang around. Enjoy the settings.",
+            "Use our fast WiFi. Borrow a newspaper or a novel."
         ],
         prices: [
             {
                 id: 1,
-                product: "Branched Apricots",
-                price: "4.20",
+                product: "Mon-Sun",
+                price: "8am – 11pm",
             },
             {
                 id: 2,
-                product: "Deep Rasberries",
-                price: "3.50",
+                product: "Caffe Retro",
+                price: "Canto VI",
             },
             {
                 id: 3,
-                product: "Smooth Oranges",
-                price: "6.50",
+                product: "0123-45 67 89",
+                price: "caffe@lorem.pge",
             }
         ]
     }
     // console.log('Exporting: ' + JSON.stringify(sectionData) );
 
     return (
-        <section id="juicy">
+        <section id="cosy">
            <Content data={sectionData}/>
         </section>)
 }
 
-export default SectionJuicy;
+export default SectionCosy;
